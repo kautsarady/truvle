@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Truvle Quiz | LINE BOT Games</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		
+		<meta name="dicoding:email" content="kautsarady@rocketmail.com">
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">How To Play</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">OVERVIEW</a></li>
+            <li><a href="howtoplay.html">HOW TO PLAY</a></li>
+            <li><a href="reportbug.html">REPORT BUG</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- +++++ Welcome Section +++++ -->
+	
+	
+	<!-- +++++ Information Section +++++ -->
+	<div class="container pt">
+		<div class="row mt centered">	
+			<div class="col-lg-3">
+				<span class="glyphicon glyphicon-home"></span>
+				<p>Buat Room</p>
+			</div>
+			
+			<div class="col-lg-3">
+				<span class="glyphicon glyphicon-hand-up"></span>
+				<p>Join Room</p>
+			</div>
+
+			<div class="col-lg-3">
+				<span class="glyphicon glyphicon-play"></span>
+				<p>Mulai Quiz</p>
+			</div>
+		</div><!-- /row -->
+		
+		<div class="row mt centered">
+			<video autoplay controls style="width: 40%;min-width: 300px;
+			height: auto;">
+				<source src="assets/tutorial.mp4" type="video/mp4">
+			</video>
+		</div>
+		
+		<div class="row mt">
+			<div class="col-lg-6">
+				<h3>Cara bermain Truvle Quiz</h3>
+				<br>
+				<h5>1. Menambahkan Truvle Quiz sebagai teman</h5>
+				<p>add LINE ID : @aga4508g</p>
+				<h5>2. Membangunkan Truvle App</h5>
+				<p>Jika Truvle Quiz sudah anda tambahkan sebagai teman, namun Truvle belum memberikan respon/balasan, eksekusi perintah (lakukan chat pada Truvle) "trv:poke" , tanpa kutip. Penjelasan terdapat di keterangan perintah "trv:poke"</p>
+				<h5>3. Bermain Truvle Quiz</h5>
+				<p>Truvle Quiz berjalan pada Truvle Room, oleh karena itu hal pertama yang harus anda lakukan adalah membuat "Truvle Room" selanjutnya memulai quiz (lihat "Perintah Dasar")</p>
+				<h5>4. Bermain Truvle Quiz di Group/Room</h5>
+				<p>Untuk bermain Truvle Quiz di dalam Group/Room, anda cukup mengundang akun Truvle ke group/room yang dikehendaki.</p>
+			</div><!-- /colg-lg-6 -->
+			<div class="col-lg-6">
+				<h3>Perintah Dasar</h3>
+				<br>
+				<h5>trv:master = membuat room</h5>
+				<p>Jika Truvle Room pada group/room/user belum tersedia, maka user yang mengeksekusi (nge-chat trv:master) akan membuat room dan menjadi room master pada group/room/user tersebut.</p>
+				<h5>trv:start:{n} = memulai quiz sebanyak 'n' quiz</h5>
+				<p>Hanya room master yang dapat memulai quiz dengan mengeksekusi (nge-chat) "trv:start", jumlah maksimal quiz adalah 5. Contoh "trv:start", "trv:start:1", "trv:start:3", "trv:start:5".</p>
+				<h5>trv:stop = menghentikan quiz</h5>
+				<p>Menghentikan quiz yang sedang berlangsung (Room master only)</p>
+				<h5>trv:delete = menghapus room</h5>
+				<p>Menghapus room yang sudah tersedia (Room master only)</p>
+				<h5>trv:poke = membangunkan heroku app</h5>
+				<p>Truvle Quiz masih dalam tahap pengembangan dan dideploy di <a href="https://www.heroku.com/">https://www.heroku.com/</a> free tier. Sehingga jika app tidak menerima request selama tenggat waktu tertentu, app akan di "sleep" kan <a href="https://devcenter.heroku.com/articles/free-dyno-hours">https://devcenter.heroku.com/articles/free-dyno-hours</a></p>
+				<h5>trv:info = menampilkan Truvle Quiz Info</h5>
+			</div><!-- /colg-lg-6 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+	
+	
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

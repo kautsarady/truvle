@@ -1,0 +1,16 @@
+{
+  "name": "truvle",
+  "version": "1.0.0",
+  "description": "This is line bot games project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "kave",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^6.3.0",
+    "express": "^4.16.3",
+    "firebase-admin": "^6.0.0"
+  }
+}
